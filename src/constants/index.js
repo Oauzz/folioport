@@ -120,12 +120,18 @@ import {
       company_name: "Orange",
       icon: orange,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "Mai 2021 - Juin 2021",
+      // points: [
+      //   "Developing and maintaining web applications using React.js and other related technologies.",
+      //   "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      //   "Implementing responsive design and ensuring cross-browser compatibility.",
+      //   "Participating in code reviews and providing constructive feedback to other developers.",
+      // ],
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Développement et maintenance des applications web en utilisant React.js et d'autres technologies connexes.",
+        "Collaboration avec des équipes pluridisciplinaires comprenant des designers, des chefs de produit et d'autres développeurs pour créer des produits de haute qualité.",
+        "Implémentation du design responsive et garantie de la compatibilité inter-navigateurs.",
+        "Participation aux revues de code et fourniture de commentaires constructifs aux autres développeurs.",
       ],
     },
     // {
@@ -200,7 +206,9 @@ import {
     {
       name: "Car Rent",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        // "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Plateforme web permettant aux utilisateurs de rechercher, réserver et gérer des locations de voitures auprès de différents fournisseurs, offrant ainsi une solution pratique et efficace pour les besoins en transport.",
+
       tags: [
         {
           name: "react",
@@ -221,7 +229,9 @@ import {
     {
       name: "Job IT",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        // "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Application web permettant aux utilisateurs de rechercher des offres d'emploi, de consulter des fourchettes de salaires estimés pour des postes, et de localiser des emplois disponibles en fonction de leur emplacement actuel.",
+
       tags: [
         {
           name: "react",
@@ -242,7 +252,9 @@ import {
     {
       name: "Trip Guide",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        // "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "Une plateforme complète de réservation de voyages qui permet aux utilisateurs de réserver des vols, des hôtels et des voitures de location, et propose des recommandations personnalisées pour des destinations populaires.",
+
       tags: [
         {
           name: "nextjs",

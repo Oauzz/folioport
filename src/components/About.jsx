@@ -42,10 +42,12 @@ const About = () => {
     <>
       <motion.div variants={textVariant()}>
         <p className={styles.sectionSubText}>Introduction</p>
-        <h2 className={styles.sectionHeadText}>Overview.</h2>
+        {/* <h2 className={styles.sectionHeadText}>Overview.</h2> */}
+        <h2 className={styles.sectionHeadText}>Vue d'ensemble.</h2>
+
       </motion.div>
 
-      <motion.p
+      {/* <motion.p
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
@@ -54,6 +56,12 @@ const About = () => {
         Three.js. I'm a quick learner and collaborate closely with clients to
         create efficient, scalable, and user-friendly solutions that solve
         real-world problems. Let's work together to bring your ideas to life!
+      </motion.p> */}
+      <motion.p
+        variants={fadeIn("", "", 0.1, 1)}
+        className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
+      >
+        Je suis un développeur logiciel compétent avec de l'expérience en TypeScript et JavaScript, et une expertise dans des frameworks tels que React, Node.js et Three.js. Je suis rapide à apprendre et je collabore étroitement avec les clients pour créer des solutions efficaces, évolutives et conviviales qui résolvent des problèmes du monde réel. Travaillons ensemble pour donner vie à vos idées !
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>
